@@ -2,6 +2,10 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+ 
+from google.colab import files
+
+uploaded = files.upload()
 
 # 1. Data Collecting and Loading
 df = pd.read_csv("titanic.csv")
